@@ -1,0 +1,23 @@
+#navbar{
+    background-color: white;
+}
+#texto{
+    color: pink !important;
+
+}
+#linksBox{
+    display: flex;
+    color: black ;
+
+    
+}
+a {
+    color: black !important;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: red;       
+};
