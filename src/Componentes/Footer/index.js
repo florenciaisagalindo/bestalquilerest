@@ -1,10 +1,9 @@
-import React, {Component}from 'react';
+import React from 'react';
 
-class Pie extends Component {
-    render(){
-        return(
-        <h1>{this.props.titulo}</h1>
-        )
-    }
+const Pie = () => {
+    return ( 
+        <h1>Hola desde pie</h1>
+     );
 }
+ 
 export default Pie;

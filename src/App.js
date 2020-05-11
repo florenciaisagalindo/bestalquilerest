@@ -4,9 +4,7 @@ import Car from './Componentes/Carousel';
 import Gallery from './Componentes/Fotos';
 import Tarjetas from './Componentes/Cards';
 import Pie from './Componentes/Footer';
-import {User} from './User.json';
 
-console.log(User)
 
 function App() {
   return (
@@ -17,7 +15,7 @@ function App() {
       <hr/>
       <Tarjetas/>
       <hr/>
-      <Pie titulo= "Hola mundo"/>
+      <Pie/>
     </div>
   );
 }

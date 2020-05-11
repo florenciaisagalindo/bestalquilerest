@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Galery = () => {
+const Gallery = () => {
     return ( 
 //   <!-- Page Content -->
         <div className="row" id="contenedorP">
@@ -45,4 +45,4 @@ const Galery = () => {
     }
  
 
-export default Galery;
+export default Gallery;
