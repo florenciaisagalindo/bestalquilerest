@@ -9,8 +9,8 @@ import Pie from './Componentes/Footer';
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Car />
+      <Nav/>
+      <Car/>
       <Gallery/>
       <hr/>
       <Tarjetas/>
