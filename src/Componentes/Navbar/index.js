@@ -8,7 +8,7 @@ const Nav = () => {
         <Navbar bg="warning" variant="dark">
           <div className="container">
               <div>
-              <img className="logo" style= {{width:'20%'}} src='./img/logo/negro_bajada.jpg' alt="logo "></img>
+              <img className="logo" style= {{width:'80px'}} src='./img/logo/negro_bajada.jpg' alt="logo "></img>
               </div>
               <div className="ml-auto">
                 <a href="#pricing">Inicio</a>

@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <Nav/>
       <Car/>
-      <Gallery/>
-      <hr/>
       <Tarjetas/>
+      <hr/>
+      <Gallery/>
       <hr/>
       <Pie/>
     </div>

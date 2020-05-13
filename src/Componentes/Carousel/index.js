@@ -1,14 +1,16 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import './style.css';
+
 
 const Car = () => {
   return (
-      
+    
 <Carousel className="w-100">
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="http://lorempixel.com/g/400/200"
+      src="./img/banner/prueba2.png"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -19,7 +21,7 @@ const Car = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="http://lorempixel.com/g/400/200"
+      src="./img/banner/PlazaSanMartin18.jpg"
       alt="Third slide"
     />
 
@@ -31,7 +33,7 @@ const Car = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src='http://lorempixel.com/g/400/200'
+      src="./img/banner/PlazaSanMartin27.jpg"
       alt="Third slide"
     />
 
@@ -40,7 +42,22 @@ const Car = () => {
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
+
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src='http://lorempixel.com/g/300/300'
+      alt="cuarto slide"
+    />
+
+    <Carousel.Caption>
+      <h3>cuarto slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  
  </Carousel>
+
     );
 }
  
