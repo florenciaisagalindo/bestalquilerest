@@ -10,7 +10,7 @@ const Car = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="./img/banner/prueba2.png"
+      src="./img/banner/puebita.jpg"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -33,7 +33,7 @@ const Car = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="./img/banner/PlazaSanMartin27.jpg"
+      src="http://lorempixel.com/400/200/"
       alt="Third slide"
     />
 
@@ -46,7 +46,7 @@ const Car = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src='http://lorempixel.com/g/300/300'
+      src='http://lorempixel.com/400/200/'
       alt="cuarto slide"
     />
 

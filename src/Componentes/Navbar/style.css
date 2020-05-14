@@ -1,6 +1,18 @@
 nav.navbar {
-    background-color: #3c3939 !important;
-    height: 80px;
+    background-color: #292724 !important;
+    width: inherit ;
+    
+}
+div.dropdown-menu{
+    background-color: #292724 !important;
+
+}
+div.dropdown-menu :hover{
+    background-color: skyblue !important;
+}
+.dropdown-item.active, .dropdown-item:active{
+    background-color: skyblue !important;
+
 }
 a {
     color: white !important;
@@ -13,3 +25,4 @@ a {
     display: flex;
     justify-content: flex-end;
 };
+

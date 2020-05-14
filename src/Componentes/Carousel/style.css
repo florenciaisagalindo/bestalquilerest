@@ -1,12 +1,9 @@
-.w-100{
-    background: center no-repeat;
-}
 .d-block{
-    height: 300px;
+    height: 400px;
 }
 
-@media (max-width: 1023px) {
-.w-100{
+@media (max-width: 733px) {
+.d-block{
     height: 255px;
 }
 }
