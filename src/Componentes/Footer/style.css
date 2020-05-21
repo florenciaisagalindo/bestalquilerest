@@ -1,3 +1,53 @@
-h1{
-    color: red;
+.page-footer{
+    background-color: #292724;
+}
+
+.contenedor{
+    
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.title{
+    color: whitesmoke;
+}
+h3{
+    text-align: left;
+}
+p{
+    font-size: 12px;
+}
+a{
+font-size: 16px;    
+}
+footer.page-footer a:hover {
+    text-decoration: none;
+    color:skyblue !important;
+}
+.links{
+    text-align: start!important;
+    line-height:2 !important;
+    letter-spacing: 0.7px !important;
+    padding-left: 0px !important;
+}
+#rrss{
+    padding-left: 0px !important;
+}
+#rrss :hover{
+    color:skyblue !important;
+
+}
+
+@media (max-width: 600px){
+
+}
+@media (min-width: 600px){
+      }
+
+@media (min-width: 768px){
+    #rrss{
+        color: red;  
+    }
+}
+@media (min-width: 992px){
+    
 }

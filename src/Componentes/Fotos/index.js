@@ -1,38 +1,48 @@
-import React from 'react';
+import  React from 'react';
 import './style.css';
+import { Fade } from 'react-slideshow-image';
 
-const Gallery = () => {
-    return ( 
-        <div style={{ margin: 'auto'}}>
+
+const imglorem = [
+  
+  'http://lorempixel.com/400/200/',
+    'http://lorempixel.com/g/400/200/',
+    'http://lorempixel.com/400/200/sports/'
+  
+  ];
    
-    <div className="row mt-5" id="contenedorP"  >
-
-          <div className="col-6">
-                <a href="#" className="d-block mb-4 h-100">
-                    <img className="img-fluid img-thumbnail" src="http://lorempixel.com/400/200/" alt="">
-                    </img></a>
-         </div>
-         <div className="col-6">
-                <a href="#" className="d-block mb-4 h-100">
-                    <img className="img-fluid img-thumbnail" src="http://lorempixel.com/400/200/" alt="">
-                    </img></a>
-         </div>
-         <div className="col-6">
-                <a href="#" className="d-block mb-4 h-100">
-                    <img className="img-fluid img-thumbnail" src="http://lorempixel.com/400/200/" alt="">
-                    </img></a>
-         </div>
-         <div className="col-6">
-                <a href="#" className="d-block mb-4 h-100">
-                    <img className="img-fluid img-thumbnail" src="http://lorempixel.com/400/200/" alt="">
-                    </img></a>
-         </div>
-         
-    </div>
-        </div>
+  const fadeProperties = {
+    infinite: false,
+    indicators: true,
     
-);     
+    onChange: (oldIndex, newIndex) => {
+      console.log(`fade transition from ${oldIndex} to ${newIndex}`);
     }
+  }
  
+const Slideshow = () => {
+    return (
+      <div className="slide-container">
+      <Fade {...fadeProperties}>
+        <div className="each-fade">
+          <div className="image-container">
+            <img src={imglorem[0]} />
+          </div>
+        </div>
+        <div className="each-fade">
+          <div className="image-container">
+            <img src={imglorem[1]} />
+          </div>
+        </div>
+        <div className="each-fade">
+          <div className="image-container">
+            <img src={imglorem[2]} />
+          </div>
+        </div>
+      </Fade>
+      </div>
+    )
+}
 
-export default Gallery;
+export default Slideshow;
+

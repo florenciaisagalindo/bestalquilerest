@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './style.css';
 
-
 const Car = () => {
   return (
     

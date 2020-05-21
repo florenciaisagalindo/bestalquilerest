@@ -1,5 +1,11 @@
+.todo{
+    display: flex;
+    justify-content: center !important;
+    background-color: skyblue;
+}
+
 .card{
-    margin: 45px auto;
+    margin: 45px 45px;
     border-radius: 16px !important;
  
 }

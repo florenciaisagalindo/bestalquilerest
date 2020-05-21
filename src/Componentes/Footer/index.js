@@ -1,10 +1,70 @@
 import React from 'react';
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import './style.css';
+import { FaFacebookSquare, FaInstagram, FaWhatsapp } from 'react-icons/fa'
+
 
 
 const Pie = () => {
     return ( 
-        <h1>Hola desde pie</h1>
+        <div >
+                 <MDBFooter className="font-small pt-4 mt-4">
+      <MDBContainer fluid className="text-center text-md-left">
+        <MDBRow className="contenedor">
+        <MDBCol md="3">
+            <h3>BEST </h3>
+            <p className="py-2">San Miguel de Tucumán, Tucumán, Argentina. <br/>Lunes a Domingos de 7:00 a 23:00. </p>
+          </MDBCol>
+          <MDBCol md="3">
+            <ul className="links">
+              <li className="list-unstyled">
+                <a href="#!">Quiénes somos</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Preguntas frecuentes</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#!">Sumar mi propiedad</a>
+              </li>
+            </ul>
+          </MDBCol>
+          <MDBCol md="2">
+            <h6 className="title">Seguínos en:</h6>
+            <ul className="d-flex flex-row pl-2">
+              <li className="list-unstyled  mt-2 mr-2" >
+                <a id="rrss" href="https://www.instagram.com/best.alquilertemporario/" target="_blank"><FaInstagram size='26px'/></a>
+              </li>
+              <li className="list-unstyled  mt-2 ">
+                <a id="rrss" href="https://www.facebook.com/best.alquilertemporario/" target="_blank" ><FaFacebookSquare size='26px'/></a>
+              </li>
+                 
+            </ul>
+          </MDBCol>
+          <MDBCol md="2">
+            <h6 className="title">Reservá por:</h6>
+            <ul className="d-flex flex-row pl-4" >
+              <li className="list-unstyled mt-2">
+                <a id="rrss" href="https://api.whatsapp.com/send?phone=543813040583" target="_blank"><FaWhatsapp size='26px'/></a>
+              </li>   
+            </ul>
+          </MDBCol>
+          <MDBCol md="2">
+            <h6 className="title">Desarrollo web:</h6>
+            <ul className="d-flex flex-row pl-4" >
+              <li className="list-unstyled">
+              </li>   
+            </ul>
+          </MDBCol>
+          
+        </MDBRow>
+      </MDBContainer>
+      <div className="footer-copyright text-center py-6">
+        <MDBContainer fluid className="mx-0">
+          &copy; {new Date().getFullYear()} Copyright Best Alquiler Temporario
+        </MDBContainer>
+      </div>
+    </MDBFooter>
+        </div>
      );
 }
  

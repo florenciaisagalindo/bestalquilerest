@@ -25,4 +25,6 @@ a {
     display: flex;
     justify-content: flex-end;
 };
-
+.logo{
+    margin-left: 70px;
+}

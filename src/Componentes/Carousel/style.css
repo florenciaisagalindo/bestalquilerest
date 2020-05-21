@@ -1,5 +1,8 @@
 .d-block{
-    height: 400px;
+    height: 30vw;
+    object-fit: cover;
+    padding-top: 30px;
+ 
 }
 
 @media (max-width: 733px) {
