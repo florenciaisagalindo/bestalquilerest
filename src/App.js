@@ -2,7 +2,7 @@ import React from 'react';
 import 'mdbreact/dist/css/mdb.css';
 import NavB from './Componentes/Navbar';
 import Car from './Componentes/Carousel';
-import Slideshow from './Componentes/Fotos';
+import BestApar from './Componentes/BestApar';
 import Tarjetas from './Componentes/Cards';
 import Pie from './Componentes/Footer';
 
@@ -12,8 +12,7 @@ function App() {
     <div className="App">
       <NavB/>
       <Car/>
-      <h2  style={{ margin: 'auto'}}>#BEST Aparments</h2>
-      <Slideshow/>
+      <BestApar/>
       <hr/>
       <Tarjetas/>
       <Pie/>
