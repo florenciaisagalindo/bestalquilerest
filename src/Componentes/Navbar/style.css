@@ -1,14 +1,14 @@
 nav.navbar {
     background-color: #292724 !important;
     width: inherit ;
-    
 }
+
 div.dropdown-menu{
     background-color: #292724 !important;
-
 }
 div.dropdown-menu :hover{
     background-color: skyblue !important;
+    text-decoration: none;
 }
 .dropdown-item.active, .dropdown-item:active{
     background-color: skyblue !important;
@@ -16,10 +16,13 @@ div.dropdown-menu :hover{
 }
 a {
     color: white !important;
-    text-decoration: none;
-    padding: 5px;
+    padding: 8px;
     margin-left: 5px;
 };
+div.navbar-nav .a :hover{
+    text-decoration: none;
+    
+}
 
 .container{
     display: flex;

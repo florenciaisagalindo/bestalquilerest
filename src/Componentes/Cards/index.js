@@ -44,7 +44,6 @@ const Tarjetas = () => {
   </Card.Body>
 </Card>
 
-
 </div>
      );
 }

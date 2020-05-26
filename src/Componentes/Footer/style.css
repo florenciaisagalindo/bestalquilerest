@@ -1,5 +1,6 @@
 .page-footer{
-    background-color: #292724;
+    background: url("https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/fondos%2Fpizarra.jpg?alt=media&token=45f07316-4a32-4a9e-8cb6-e65353ddd68f");
+;
 }
 
 .contenedor{
@@ -36,18 +37,11 @@ footer.page-footer a:hover {
     color:skyblue !important;
 
 }
-
-@media (max-width: 600px){
-
-}
-@media (min-width: 600px){
-      }
-
-@media (min-width: 768px){
-    #rrss{
-        color: red;  
-    }
-}
-@media (min-width: 992px){
-    
+/*MEDIA QUERYS*/
+@media (min-width:300px) and (max-width:767px){
+        #rrss_cont   {
+        justify-content: center !important;  
+        }
+        #links{
+            text-align-last: center;        }
 }

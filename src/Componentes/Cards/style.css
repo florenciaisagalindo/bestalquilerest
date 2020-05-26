@@ -1,16 +1,21 @@
 .todo{
     display: flex;
     justify-content: center !important;
+    margin: 15px 20px !important;
+
+
 }
 
 .card{
     margin: 45px 45px;
     border-radius: 16px !important;
- 
+    background-color: transparent !important;
+
 }
 
 
 .card-img, .card-img-top {
     border-top-left-radius: 16px !important;
     border-top-right-radius: 16px !important;
+
 }

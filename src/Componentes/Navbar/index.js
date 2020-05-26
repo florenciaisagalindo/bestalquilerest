@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import Navbar from 'react-bootstrap/Navbar';
 import {Nav, NavDropdown} from 'react-bootstrap';
+import {NavLink, Link} from 'react-router-dom';
 
 const NavB = () => {
  
@@ -14,19 +15,19 @@ const NavB = () => {
     <Nav className="mr-auto">
     </Nav>
     <Nav>
-      <Nav.Link eventKey={2} href="#memes">
+      <NavLink to="/" eventKey={2} >
         Inicio
-      </Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
+      </NavLink>
+      <NavLink to="/departamentos" eventKey={2}>
         Departamentos
-      </Nav.Link>
+      </NavLink>
       <NavDropdown title="Información" id="collasible-nav-dropdown"> 
-        <NavDropdown.Item href="#action/3.1">Alquileres</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Sumá tu depto</NavDropdown.Item>
+        <NavDropdown.Item><Link to="/info_alquileres">Alquileres</Link></NavDropdown.Item>
+        <NavDropdown.Item><Link to="/info_sumardpto">Sumá tu depto</Link></NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Best Limpieza</NavDropdown.Item>
+        <NavDropdown.Item><Link to="/info_bestlimpieza">Best Limpieza</Link></NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="#deets">Contacto</Nav.Link>
+      <NavLink to="/contacto">Contacto</NavLink>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
