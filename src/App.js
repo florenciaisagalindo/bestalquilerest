@@ -11,8 +11,10 @@ import Car from './Componentes/Carousel';
 import BestApar from './Componentes/BestApar';
 import Tarjetas from './Componentes/Cards';
 import Pie from './Componentes/Footer';
-import Departamentos from './Pages/Departamentos'
-
+import Departamentos from './Pages/Departamentos';
+import Pasos from './Componentes/Pasos';
+import Nosotros from './Pages/Nosotros';
+import DeptoInfo from './Pages/DeptoInfo';
 
 function App() {
   return (
@@ -21,14 +23,16 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <Car/>
+          <Pasos/>
           <BestApar/>
           <hr/>
           <Tarjetas/>
         </Route>
-        <Route path="/departamentos">
+        <Route exact path="/departamentos">
           <hr/>
         <Departamentos/>
         </Route>
+      <Route exact path="/departamentos/:id"component={DeptoInfo}/>
       </Switch>
       <Pie/>
     </Router>

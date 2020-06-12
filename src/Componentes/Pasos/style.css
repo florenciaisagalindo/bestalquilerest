@@ -1,0 +1,10 @@
+.pasos_sec{
+    background: url("https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/fondos%2Fpizarra.jpg?alt=media&token=45f07316-4a32-4a9e-8cb6-e65353ddd68f");
+    width: 100vw;
+    height: 600px;
+}
+.titulo_p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}

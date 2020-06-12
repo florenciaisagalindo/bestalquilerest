@@ -1,0 +1,53 @@
+.seccion1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.inforDeptos{
+    width: 50vw;
+    height: 340px;
+}
+.imgDeptos{
+    width: 50vw;
+    height: 50px;
+    padding-left: 40px;
+}
+.seccion2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.descDeptos{
+    background-color: salmon;
+    width: 50vw;
+    height: 340px;
+}
+.precioDeptos{
+    background-color: violet;
+    width: 50vw;
+    height: 340px;
+}
+.seccion3{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.comenDeptos{
+    background-color: pink;
+    width: 50vw;
+    height: 50px;
+}
+.ubicDeptos{
+    background-color: burlywood;
+    width: 50px;
+    height: 50px;
+}
+.seccion4{
+    margin-top: 10px;
+}
+.similDeptos{
+    background-color: darkcyan;
+    width: 150px;
+    height: 150px;
+
+}

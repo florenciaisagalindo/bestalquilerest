@@ -3,17 +3,16 @@ import './style.css';
 import Navbar from 'react-bootstrap/Navbar';
 import {Nav, NavDropdown} from 'react-bootstrap';
 import {NavLink, Link} from 'react-router-dom';
+import Button from '@material-ui/core/Button';
 
 const NavB = () => {
  
     return ( 
       
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed= "top">
-     <img className="logo" style= {{width:'56px', margin:'auto 5px'}} src="./img/logo/logo_negro.png" alt=""></img> 
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed= "top">
+     <img className="logo" style= {{width:'35px', margin:'auto 30px' , padding: 'auto 20px'}} src="./img/logo/best_t.png" alt=""></img> 
+  <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto">
-    </Nav>
     <Nav>
       <NavLink to="/" eventKey={2} >
         Inicio
@@ -27,7 +26,7 @@ const NavB = () => {
         <NavDropdown.Divider />
         <NavDropdown.Item><Link to="/info_bestlimpieza">Best Limpieza</Link></NavDropdown.Item>
       </NavDropdown>
-      <NavLink to="/contacto">Contacto</NavLink>
+      <Button id="btn_r" variant="contained" color="primary" href="#contained-buttons" style={{margin: 'auto 550px'}}>Reservar</Button>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
