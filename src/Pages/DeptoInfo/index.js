@@ -1,7 +1,10 @@
 import React from 'react';
 import './style.css';
 import SwipeableTextMobileStepper from '../../Componentes/SlideFotos/index';
+import Mapa from '../../Componentes/Map/index';
+import Credentials from '../../Credentials';
 
+const mapURL = `https://maps.googleapis.com/maps/api/js?v=9.4.5.exp&key=${Credentials.mapsKey}`;
 
 const DeptoInfo = () => {
     return (
@@ -12,7 +15,7 @@ const DeptoInfo = () => {
                 <p>lorem ipsum lkdjlkjaklñjñlkjñlkjñlkjañlkjñlkjñlkj</p>
             </div>
             <div className="imgDeptos">
-                <SwipeableTextMobileStepper/>
+                <SwipeableTextMobileStepper />
             </div>
         </div>
         <div className="seccion2">
@@ -21,7 +24,14 @@ const DeptoInfo = () => {
         </div>
         <div className="seccion3">
             <div className="comenDeptos"></div>
-            <div className="ubicDeptos"></div>
+            <div className="ubicDeptos">
+            <Mapa
+                    googleMapURL= {mapURL}
+                    containerElement={<div style={{height: '340px'}}/>}
+                    mapElement={<div style={{height: '100%'}}/>}
+                    loadingElement= {<p>Cargando</p>}
+                    />
+            </div>
         </div>
         <div className="seccion4">
             <div className="similDeptos"></div>

@@ -35,19 +35,18 @@
 .comenDeptos{
     background-color: pink;
     width: 50vw;
-    height: 50px;
+    height: 340px;
 }
 .ubicDeptos{
-    background-color: burlywood;
-    width: 50px;
-    height: 50px;
+    width: 50vw;
+    height: 340px;
 }
 .seccion4{
     margin-top: 10px;
 }
 .similDeptos{
     background-color: darkcyan;
-    width: 150px;
+    width: 100vw;
     height: 150px;
 
 }

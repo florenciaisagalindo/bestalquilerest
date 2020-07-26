@@ -20,7 +20,7 @@ const NavB = () => {
       <NavLink to="/departamentos" eventKey={2}>
         Departamentos
       </NavLink>
-      <NavDropdown title="Información" id="collasible-nav-dropdown"> 
+      <NavDropdown title="Servicios" id="collasible-nav-dropdown"> 
         <NavDropdown.Item><Link to="/info_alquileres">Alquileres</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/info_sumardpto">Sumá tu depto</Link></NavDropdown.Item>
         <NavDropdown.Divider />
