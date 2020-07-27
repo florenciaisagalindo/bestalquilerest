@@ -17,8 +17,9 @@ h3{
 p{
     font-size: 12px;
 }
-a{
-font-size: 16px;    
+.link-footer{
+font-size: 16px; 
+color: aquamarine;   
 }
 footer.page-footer a:hover {
     text-decoration: none;

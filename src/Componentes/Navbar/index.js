@@ -14,19 +14,19 @@ const NavB = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav>
-      <NavLink to="/" eventKey={2} >
+      <NavLink className="link-nav" to="/" eventKey={2} style={{paddingTop: '16px'}}>
         Inicio
       </NavLink>
-      <NavLink to="/departamentos" eventKey={2}>
+      <NavLink className="link-nav" to="/departamentos" eventKey={2}style={{paddingTop: '16px'}}>
         Departamentos
       </NavLink>
-      <NavDropdown title="Servicios" id="collasible-nav-dropdown"> 
-        <NavDropdown.Item><Link to="/info_alquileres">Alquileres</Link></NavDropdown.Item>
+      <NavDropdown className="link-nav" title="Servicios" id="collasible-nav-dropdown"> 
+        <NavDropdown.Item><Link className="link-nav" to="/info_alquileres">Alquileres</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/info_sumardpto">Sumá tu depto</Link></NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item><Link to="/info_bestlimpieza">Best Limpieza</Link></NavDropdown.Item>
       </NavDropdown>
-      <Button id="btn_r" variant="contained" color="primary" href="#contained-buttons" style={{margin: 'auto 550px'}}>Reservar</Button>
+      <Button id="btn_r" variant="contained" color="primary" href="#contained-buttons" style={{margin: 'auto 800px'}}>Reservar</Button>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
