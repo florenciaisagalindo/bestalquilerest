@@ -12,7 +12,7 @@ const DeptoInfo = () => {
         <div className="seccion1">
             <div className="inforDeptos">
                 <h3>Amenities</h3>
-                <p>lorem ipsum lkdjlkjaklñjñlkjñlkjñlkjañlkjñlkjñlkj</p>
+                <p>Aqui van los amenities</p>
             </div>
             <div className="imgDeptos">
                 <SwipeableTextMobileStepper />

@@ -1,6 +1,6 @@
 .pasos-cont{
     background: url("https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/fondos%2Fpizarra.jpg?alt=media&token=45f07316-4a32-4a9e-8cb6-e65353ddd68f");
-    height: 600px;
+    height: 580px;
     
 }
 .pasos-sec{
@@ -11,7 +11,7 @@
 .titulo_princ{
     color: white;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 40px;
 }
 .img-pasos{
     width: 150px;

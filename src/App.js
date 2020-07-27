@@ -13,8 +13,9 @@ import Tarjetas from './Componentes/Cards';
 import Pie from './Componentes/Footer';
 import Departamentos from './Pages/Departamentos';
 import Pasos from './Componentes/Pasos';
-import Nosotros from './Pages/Nosotros';
 import DeptoInfo from './Pages/DeptoInfo';
+import About from './Componentes/About/index';
+import Whatsapp from './Componentes/Whatsapp/whatsapp';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <Car/>
+          <About/>
           <Pasos/>
           <BestApar/>
           <hr/>
@@ -34,6 +36,7 @@ function App() {
         </Route>
       <Route exact path="/departamentos/:id"component={DeptoInfo}/>
       </Switch>
+      <Whatsapp/>
       <Pie/>
     </Router>
   );
