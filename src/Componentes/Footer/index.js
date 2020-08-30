@@ -32,10 +32,10 @@ const Pie = () => {
             <h6 className="title">Seguínos en:</h6>
             <ul id="rrss_cont" className="d-flex flex-row pl-2">
               <li className="list-unstyled  mt-2 mr-2" >
-                <a className="link-footer" id="rrss" href="https://www.instagram.com/best.alquilertemporario/" target="_blank"><FaInstagram size='26px'/></a>
+                <a className="link-footer" id="rrss" href="https://www.instagram.com/best.alquilertemporario/" target="_blank"rel="noopener noreferrer"><FaInstagram size='26px'/></a>
               </li>
               <li className="list-unstyled  mt-2 ">
-                <a className="link-footer" id="rrss" href="https://www.facebook.com/best.alquilertemporario/" target="_blank" ><FaFacebookSquare size='26px'/></a>
+                <a className="link-footer" id="rrss" href="https://www.facebook.com/best.alquilertemporario/" target="_blank" rel="noopener noreferrer"><FaFacebookSquare size='26px'/></a>
               </li>
                  
             </ul>
@@ -44,7 +44,7 @@ const Pie = () => {
             <h6 className="title">Reservá por:</h6>
             <ul id="rrss_cont" className="d-flex flex-row pl-4" >
               <li className="list-unstyled mt-2">
-                <a className="link-footer" id="rrss" href="https://api.whatsapp.com/send?phone=543813040583" target="_blank"><FaWhatsapp size='26px'/></a>
+                <a className="link-footer" id="rrss" href="https://api.whatsapp.com/send?phone=543813040583" target="_blank" rel="noopener noreferrer"><FaWhatsapp size='26px'/></a>
               </li>   
             </ul>
           </MDBCol>

@@ -6,12 +6,12 @@
 	right:40px;
 	background-color:#25d366;
 	color:#FFF !important;
-	border-radius:50px;
+	border-radius:15px;
 	text-align:center;
-  font-size:30px;
+  	font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-  transition: 2s;
+    z-index:100;
+    transition: 2s;
 }
 #wsp{
     color: white !important;

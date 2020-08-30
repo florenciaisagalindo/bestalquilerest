@@ -5,12 +5,16 @@ import {Nav, NavDropdown} from 'react-bootstrap';
 import {NavLink, Link} from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 
+
+/*  ./img/logo/best_t.png
+ESTO ESTA AQUI DE REFERENCIA PARA PONERLO EN FIREBASE SINO NO ME TOMA EN LAS OTRAS PAGES
+ */
+
 const NavB = () => {
- 
     return ( 
       
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed= "top">
-     <img className="logo" style= {{width:'35px', margin:'auto 30px' , padding: 'auto 20px'}} src="./img/logo/best_t.png" alt=""></img> 
+     <img className="logo" style= {{width:'35px', margin:'auto 30px' , padding: 'auto 20px'}} src="http://lorempixel.com/400/200/" alt=""></img> 
   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav>
@@ -20,13 +24,14 @@ const NavB = () => {
       <NavLink className="link-nav" to="/departamentos" eventKey={2}style={{paddingTop: '16px'}}>
         Departamentos
       </NavLink>
-      <NavDropdown className="link-nav" title="Servicios" id="collasible-nav-dropdown"> 
-        <NavDropdown.Item><Link className="link-nav" to="/info_alquileres">Alquileres</Link></NavDropdown.Item>
-        <NavDropdown.Item><Link to="/info_sumardpto">Sumá tu depto</Link></NavDropdown.Item>
+      
+      <NavDropdown className="link-nav" title="Alquiler" id="collasible-nav-dropdown"> 
+        <NavDropdown.Item><Link className="link-nav" to="/info_alquileres">Particulares</Link></NavDropdown.Item>
+        <NavDropdown.Item><Link to="/info_sumardpto">Empresas</Link></NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item><Link to="/info_bestlimpieza">Best Limpieza</Link></NavDropdown.Item>
+        <NavDropdown.Item><Link to="/info_bestlimpieza">Preguntas frecuentes</Link></NavDropdown.Item>
       </NavDropdown>
-      <Button id="btn_r" variant="contained" color="primary" href="#contained-buttons" style={{margin: 'auto 800px'}}>Reservar</Button>
+      <Button id="btn_r" variant="contained" color="primary" href="#reservar" style={{margin: 'auto 800px'}}>Reservar</Button>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

@@ -1,5 +1,5 @@
 import '../Departamentos/style.css'
-import  React, {useState, useEffect, Link} from 'react';
+import  React, {useState, useEffect} from 'react';
 import './style.css';
 import Card from 'react-bootstrap/Card';
 import FontAwesome from 'react-fontawesome';
@@ -35,7 +35,7 @@ const Departamentos = () => {
     <>
     <div className="contenedorP" >
         {aparments.map((bestap)=>
-        <a target="_blank" href ={`/departamentos/${bestap.slug}`}>
+        <a target="_blank" rel="noopener noreferrer" href ={`/departamentos/${bestap.slug}`}>
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={bestap.foto1} />
         <Card.Body>       

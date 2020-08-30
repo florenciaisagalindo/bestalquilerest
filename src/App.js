@@ -2,8 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 }from "react-router-dom";
 import 'mdbreact/dist/css/mdb.css';
 import NavB from './Componentes/Navbar';
