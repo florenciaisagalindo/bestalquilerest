@@ -29,7 +29,7 @@ const NavB = () => {
         <NavDropdown.Item><Link className="link-nav" to="/info_alquileres">Particulares</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/info_sumardpto">Empresas</Link></NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item><Link to="/info_bestlimpieza">Preguntas frecuentes</Link></NavDropdown.Item>
+        <NavDropdown.Item><Link to="/faqs">Preguntas frecuentes</Link></NavDropdown.Item>
       </NavDropdown>
       <Button id="btn_r" variant="contained" color="primary" href="#reservar" style={{margin: 'auto 800px'}}>Reservar</Button>
     </Nav>

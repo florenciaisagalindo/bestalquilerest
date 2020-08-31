@@ -15,6 +15,9 @@ import Pasos from './Componentes/Pasos';
 import DeptoInfo from './Pages/DeptoInfo';
 import About from './Componentes/About/index';
 import Whatsapp from './Componentes/Whatsapp/whatsapp';
+import BestSale from './Componentes/BestSale';
+import Faqs from './Pages/Faqs';
+import AparLand from './Componentes/AparLand';
 
 function App() {
   return (
@@ -25,7 +28,7 @@ function App() {
           <Car/>
           <About/>
           <Pasos/>
-          <BestApar/>
+          <AparLand/>
           <hr/>
           <Tarjetas/>
         </Route>
@@ -34,6 +37,9 @@ function App() {
         <Departamentos/>
         </Route>
       <Route exact path="/departamentos/:id"component={DeptoInfo}/>
+      <Route exact path="/faqs" exact>
+        <Faqs/>
+        </Route>
       </Switch>
       <Whatsapp/>
       <Pie/>

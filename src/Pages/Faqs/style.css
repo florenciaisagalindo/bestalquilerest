@@ -1,0 +1,63 @@
+.container-acordeon{
+    margin: 100px 350px;
+    width: 50%;
+    padding: 0 1.5rem;
+}
+.acordeon-item{
+    background-color: #333333;
+    margin-bottom: 1rem;
+    padding: 5px 12px;
+    border-radius: .4rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0, .1);
+}
+.acordeon-link{
+    font-size: 1.2rem;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.acordeon-link:hover{
+    text-decoration: none !important;
+}
+.acordeon-link .i{
+    color: #fff;
+}
+#remove{
+    display: none;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;    
+    transition: max-height 650ms;
+
+}
+.answer ::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: yellow;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.answer p{
+    font-size: 1.4rem;
+    color: #333333;
+    padding: 2rem;
+}
+.acordeon-item:target .answer{
+    max-height: 20rem;
+}
+.acordeon-item:target .acordeon-link #add{
+    display: none;
+}
+.acordeon-item:target .acordeon-link #remove{
+    display: block;
+}

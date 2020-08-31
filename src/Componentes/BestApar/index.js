@@ -32,7 +32,7 @@ const BestApar = () => {
 
   return ( 
     <>
-    <h1 className="titulo">Nuestros deptos #BEST </h1>
+    <h1 className="titulo"> Más lugares </h1>
     <div className="contenedorP" >
         {aparments.map((bestap)=>
       
@@ -50,7 +50,6 @@ const BestApar = () => {
         )}
     </div>
        
-    <button className="boton_verdeptos">VER TODOS</button>
     </>
    );
 }
