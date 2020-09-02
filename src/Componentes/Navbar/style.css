@@ -1,6 +1,7 @@
 nav.navbar {
     background-color: #333332 !important;
     width: inherit ;
+    height: 80px;
 }
 
 div.dropdown-menu{
@@ -27,10 +28,11 @@ div.dropdown-menu :hover{
   .link-nav {
     color: #fff ;
     padding: 8px;
-    font-weight: 800;
     padding-right: 30px;
     text-transform: uppercase;
-    letter-spacing: 2px
+    letter-spacing: 2px;
+    font-size: 18px
+
 };
 
 

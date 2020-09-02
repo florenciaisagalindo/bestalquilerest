@@ -14,7 +14,7 @@ const NavB = () => {
     return ( 
       
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed= "top">
-     <img className="logo" style= {{width:'35px', margin:'auto 65px' , padding: 'auto 20px'}} src="http://lorempixel.com/400/200/" alt=""></img> 
+     <img className="logo" style= {{width:'55px', margin:'auto 65px' , padding: 'auto 10px', borderRadius: '100%'}} src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/logos%2Flogo_blanco.jpg?alt=media&token=da0be96e-c5b6-4e81-a937-8223e0acfc44" alt=""></img> 
   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav>

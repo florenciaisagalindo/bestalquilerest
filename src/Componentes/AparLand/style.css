@@ -7,10 +7,12 @@
 }
 
 .secc-1, .secc-2{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .secc-1 img, .secc-2 img{
-    width: 600px;
-    margin-right: 30px;
+    width: 500px;
+    margin-right: 25px;
     border-radius: 2px;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
 }

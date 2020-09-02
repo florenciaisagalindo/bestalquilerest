@@ -8,3 +8,8 @@ body{
     font-family: gabelisa;
     src: url(/fonts/gabelisa.otf);
 }
+a:hover{
+    color: #f8c217 !important ;
+    text-decoration: none;
+    transition: 0.5s;
+}

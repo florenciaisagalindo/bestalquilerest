@@ -21,10 +21,7 @@ p{
 font-size: 16px; 
 color: aquamarine;   
 }
-footer.page-footer a:hover {
-    text-decoration: none;
-    color:skyblue !important;
-}
+
 .links{
     text-align: start!important;
     line-height:2 !important;
@@ -34,10 +31,7 @@ footer.page-footer a:hover {
 #rrss{
     padding-left: 0px !important;
 }
-#rrss :hover{
-    color:skyblue !important;
 
-}
 /*MEDIA QUERYS*/
 @media (min-width:300px) and (max-width:767px){
         #rrss_cont   {
