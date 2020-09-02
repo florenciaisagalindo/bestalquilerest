@@ -1,19 +1,22 @@
 nav.navbar {
-    background-color: #fff !important;
+    background-color: #333332 !important;
     width: inherit ;
 }
 
 div.dropdown-menu{
-    background-color: white !important;
+    background-color: #333332!important;
 }
 div.dropdown-menu :hover{
-    background-color: skyblue !important;
+    background-color: gainsboro !important;
     text-decoration: none;
 }
-.dropdown-item.active, .dropdown-item:active{
-    background-color: skyblue !important;
-
+.navbar.navbar-light .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: gainsboro;
 }
+.navbar .dropdown-menu a{
+    color: #fff !important;
+}
+
 .navbar-light button.navbar-toggler.collapsed span.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(60, 57, 57, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
   }
@@ -22,10 +25,12 @@ div.dropdown-menu :hover{
   }
 
   .link-nav {
-    color: #3c3939 ;
+    color: #fff ;
     padding: 8px;
-    font-weight: 400;
+    font-weight: 800;
     padding-right: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px
 };
 
 
@@ -34,8 +39,9 @@ div.navbar-nav .a :hover{
     
 }
 #btn_r{
-    color:  white !important;
-    background-color: #3c3939 ;
+    color: #333332 !important;
+    background-color: #fff ;
+    font-weight: 600;
 }
 .container{
     display: flex;
@@ -43,4 +49,7 @@ div.navbar-nav .a :hover{
 };
 .logo{
     margin-left: 70px;
+}
+.navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #fff;
 }

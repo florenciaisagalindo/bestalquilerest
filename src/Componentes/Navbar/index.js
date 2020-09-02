@@ -14,7 +14,7 @@ const NavB = () => {
     return ( 
       
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed= "top">
-     <img className="logo" style= {{width:'35px', margin:'auto 30px' , padding: 'auto 20px'}} src="http://lorempixel.com/400/200/" alt=""></img> 
+     <img className="logo" style= {{width:'35px', margin:'auto 65px' , padding: 'auto 20px'}} src="http://lorempixel.com/400/200/" alt=""></img> 
   <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav>
@@ -31,7 +31,7 @@ const NavB = () => {
         <NavDropdown.Divider />
         <NavDropdown.Item><Link to="/faqs">Preguntas frecuentes</Link></NavDropdown.Item>
       </NavDropdown>
-      <Button id="btn_r" variant="contained" color="primary" href="#reservar" style={{margin: 'auto 800px'}}>Reservar</Button>
+      <Button id="btn_r" variant="contained" color="primary" href="#reservar" style={{margin: 'auto 610px'}}>Reservar</Button>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

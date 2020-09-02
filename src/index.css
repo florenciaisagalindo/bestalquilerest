@@ -2,5 +2,9 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Barlow', sans-serif;
+}
+@font-face{
+    font-family: gabelisa;
+    src: url(/fonts/gabelisa.otf);
 }
