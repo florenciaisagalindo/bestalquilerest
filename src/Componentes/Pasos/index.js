@@ -11,7 +11,7 @@ const Pasos = () => {
                 
             <div className="pasos-sec">
                 <div className="paso1">
-                <img className="img-pasos" alt="Envianos un whastapp" src="../../../img/iconos/whatsapp.svg"  />
+                <img className="img-pasos ml-5" alt="Envianos un whastapp" src="../../../img/iconos/message.png"  />
             <h6 className="titulo-pasos">ENVIÁNOS POR WHATSAPP</h6>
             <p className="texto-pasos">• Fecha <br/>• Cantidad de huéspedes <br/>• Departamento favorito</p>
             </div>

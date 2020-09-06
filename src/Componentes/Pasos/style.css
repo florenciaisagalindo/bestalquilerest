@@ -21,31 +21,24 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 50px;
-    text-shadow: black 3px 3px 3px;
+    text-shadow: #000000 3px 3px 3px;
 }
 .titulo_princ2{
     font-family: gabelisa;
     letter-spacing: 1px;
     font-size: 45px;
-
 }
 .img-pasos{
     width: 150px;
     height: 150px;
     margin-top: 60px;
-    
-
-
 }
 .titulo-pasos{
     color: white;
     padding-top: 50px;
     font-size: 20px;
     font-weight: 600;
-    text-shadow: black 3px 3px 3px;
-
-
-
+    text-shadow: #000000 3px 3px 3px;
 }
 .texto-pasos{
     color: white;

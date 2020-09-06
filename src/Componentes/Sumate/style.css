@@ -1,0 +1,44 @@
+.contenedor-sumate{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 80px;
+
+}
+.video-sumate{
+    width: 40%;
+}
+.cont-sumate{
+    width: 50%;
+
+}
+.titulo-suma{
+    margin: auto;  
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.texto-suma{
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    width: 450px;
+    font-size: 20px;
+}
+.span-sumate{
+    border-top: solid 5px #f8c217 ;
+    width: 150px;
+    margin: auto auto;
+    transform: rotate(-2deg);
+}
+.saber-mas{
+    background-color: #f8c217;
+    border-radius: 5px;
+    border: none;
+    margin-top: 80px;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}

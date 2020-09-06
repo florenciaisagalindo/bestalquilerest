@@ -3,22 +3,23 @@ import './style.css';
 
 const AparLand = () => {
     return ( 
-        <>
-        <h2 className="titulo-aparland">Best alquileres</h2>
-        
+        <div className="contenedor-AL">
+                <div className="span-ap"></div>
+                    <h2 className="titulo-aparland1">Conocé nuestros</h2><h2 className="titulo-aparland2">deptos Best</h2>
+                <div className="span-ap"></div>
 
         <div className="container-aparland">
             <div className="secc-1">
-                <img src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_002.jpg?alt=media&token=4b27c25d-5f50-4236-8f7e-5c3ca76893b3" className=""></img>
-                <img src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_005.jpg?alt=media&token=d0f30779-56a9-4549-bd9a-925bf51e1e3a" className=""></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/apart-land%2Fmono-chaca.jpg?alt=media&token=383129ae-5e8d-49bb-96ac-2fce6e34fa44" className=""></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/apart-land%2Flavalle.jpg?alt=media&token=1a433304-f637-478d-8a06-1a4ca15fe471" className=""></img>
             </div>
             
             <div className="secc-2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_005.jpg?alt=media&token=d0f30779-56a9-4549-bd9a-925bf51e1e3a" className=""></img>
-                <img src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_005.jpg?alt=media&token=d0f30779-56a9-4549-bd9a-925bf51e1e3a" className=""></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/apart-land%2Fcorrientes.jpg?alt=media&token=49ac2ed8-a65b-43f3-99b4-3947fdc3140e" className=""></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/apart-land%2F4chaca.jpg?alt=media&token=3044622a-d449-4f63-81c8-bc9a4f96ca7a" className=""></img>
 
             </div>
-
+            <button className="ver-deptos">ver todos</button>
 
 
 
@@ -26,7 +27,7 @@ const AparLand = () => {
 
 
         </div>
-        </>
+        </div>
      );
 }
  

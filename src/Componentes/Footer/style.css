@@ -1,12 +1,14 @@
 .page-footer{
     background: url("https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/fondos%2Fpizarra.jpg?alt=media&token=45f07316-4a32-4a9e-8cb6-e65353ddd68f");
 ;
+
 }
 
 .contenedor{
     
     padding-left: 2em;
     padding-right: 2em;
+
 }
 .title{
     color: whitesmoke;
@@ -28,8 +30,13 @@ color: aquamarine;
     letter-spacing: 0.7px !important;
     padding-left: 0px !important;
 }
+
 #rrss{
     padding-left: 0px !important;
+    margin-right: 10px;
+    box-shadow: black 5px 5px 5px !important;
+
+    
 }
 
 /*MEDIA QUERYS*/

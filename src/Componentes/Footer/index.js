@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import './style.css';
-import { FaFacebookSquare, FaInstagram, FaWhatsapp } from 'react-icons/fa'
+import { FaFacebookSquare, FaInstagram, FaWhatsapp, FaSpotify } from 'react-icons/fa'
 
 
 
@@ -18,7 +18,7 @@ const Pie = () => {
           <MDBCol md="3" id="links">
             <ul className="links">
               <li className="list-unstyled">
-                <a className="link-footer" href="#!">Quiénes somos</a>
+                <a className="link-footer" href="#!">Departamentos</a>
               </li>
               <li className="list-unstyled">
                 <a className="link-footer" href="#!">Preguntas frecuentes</a>
@@ -29,15 +29,17 @@ const Pie = () => {
             </ul>
           </MDBCol>
           <MDBCol md="2">
-            <h6 className="title">Seguínos en:</h6>
             <ul id="rrss_cont" className="d-flex flex-row pl-2">
               <li className="list-unstyled  mt-2 mr-2" >
-                <a className="link-footer" id="rrss" href="https://www.instagram.com/best.alquilertemporario/" target="_blank"rel="noopener noreferrer"><FaInstagram size='26px'/></a>
+                <a className="link-footer" id="rrss" href="https://www.instagram.com/best.alquilertemporario/" target="_blank"rel="noopener noreferrer"><FaInstagram size='37px'/></a>
               </li>
-              <li className="list-unstyled  mt-2 ">
-                <a className="link-footer" id="rrss" href="https://www.facebook.com/best.alquilertemporario/" target="_blank" rel="noopener noreferrer"><FaFacebookSquare size='26px'/></a>
+              <li className="list-unstyled  mt-2 mr-2">
+                <a className="link-footer" id="rrss" href="https://www.facebook.com/best.alquilertemporario/" target="_blank" rel="noopener noreferrer"><FaFacebookSquare size='35px'/></a>
               </li>
-                 
+              <li className="list-unstyled  mt-2 mr-2">
+                <a className="link-footer" id="rrss" href="https://open.spotify.com/user/1gercicw24c2840qu4oyilvpe?si=F9QZtlXwR_6anM-vX5AnxA" target="_blank" rel="noopener noreferrer"><FaSpotify size='35px'/></a>
+              </li>
+              
             </ul>
           </MDBCol>
           <MDBCol md="2">

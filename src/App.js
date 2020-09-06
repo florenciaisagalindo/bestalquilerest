@@ -8,7 +8,7 @@ import 'mdbreact/dist/css/mdb.css';
 import NavB from './Componentes/Navbar';
 import Car from './Componentes/Carousel';
 import BestApar from './Componentes/BestApar';
-import Tarjetas from './Componentes/Cards';
+import Sumate from './Componentes/Sumate';
 import Pie from './Componentes/Footer';
 import Departamentos from './Pages/Departamentos';
 import Pasos from './Componentes/Pasos';
@@ -18,6 +18,7 @@ import Whatsapp from './Componentes/Whatsapp/whatsapp';
 import BestSale from './Componentes/BestSale';
 import Faqs from './Pages/Faqs';
 import AparLand from './Componentes/AparLand';
+import ValoracionesLand from './Componentes/ValoracionesLand';
 
 function App() {
   return (
@@ -29,11 +30,10 @@ function App() {
           <About/>
           <Pasos/>
           <AparLand/>
-          <hr/>
-          <Tarjetas/>
+          <ValoracionesLand/>
+          <Sumate/>
         </Route>
         <Route exact path="/departamentos">
-          <hr/>
         <Departamentos/>
         </Route>
       <Route exact path="/departamentos/:id"component={DeptoInfo}/>
