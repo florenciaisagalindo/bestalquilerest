@@ -1,5 +1,5 @@
 .contenedor-sumate{
-    height: 500px;
+    height: 650px;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -7,10 +7,13 @@
 
 }
 .video-sumate{
-    width: 40%;
+    width: 50%;
+    padding-left: 35px;
+    padding-bottom: 50px;
 }
 .cont-sumate{
     width: 50%;
+    padding-top: 50px;
 
 }
 .titulo-suma{
@@ -26,6 +29,8 @@
     padding-top: 70px;
     width: 450px;
     font-size: 20px;
+    line-height: 30px;
+    
 }
 .span-sumate{
     border-top: solid 5px #f8c217 ;
@@ -41,4 +46,7 @@
     padding: 10px 25px;
     font-size: 20px;
     font-weight: 600;
+}
+.saber-mas:hover{
+    color: #fff;
 }

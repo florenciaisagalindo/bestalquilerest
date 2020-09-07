@@ -25,12 +25,16 @@
     padding-top: 3px ;
     font-size: 35px;
 }
-
 #slider {
     margin: 0 auto;
-    width: 600px;
+    width: 800px;
     max-width: 100%;
     text-align: center;
+ }
+ .texto-slide{
+     font-size: 14px;
+     width: 100%;
+     
  }
  #slider input[type=radio] {
     display: none;
@@ -74,6 +78,7 @@
     align-items: center;
     height: 100%;
     color: #fff;
+    background: #333332;
  }
  #slides .slide_1 {
  }
@@ -119,7 +124,7 @@
     display: block;
  }
  #bullets {
-    margin: 50px 0 0;
+    margin: 150px 0 0;
     text-align: center;
  }
  #bullets label {

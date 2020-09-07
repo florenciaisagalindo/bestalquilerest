@@ -6,7 +6,7 @@ const ValoracionesLand = () => {
         <div className="todo">
             
             <div className="titulo_valora">
-                <h2 className="titulo_valora1">Nuestros</h2><h2 className="titulo_valora2">BEST GUESTS</h2><h2 className="titulo_valora3"></h2>
+                <h2 className="titulo_valora1">Nuestros</h2><h2 className="titulo_valora2">HUÉSPEDES BEST</h2><h2 className="titulo_valora3"></h2>
             </div>    
         <div id="slider">
             <input type="radio" name="slider" id="slide1" checked />
@@ -18,9 +18,8 @@ const ValoracionesLand = () => {
          <div className="inner">
             <div class="slide slide_1">
                <div className="slide-content">
-                  <h2>Slide 1</h2>
-                  <p>Content for Slide 1</p>
-                  <p>Content for Slide 1</p>
+                  <p className="texto-slide">Fuimos por motivos laborales y nos hospedamos 3 noches. Las sabanas y toallas de buena calidad. No nos faltó absolutamente nada. El barrio esta ubicado en lugar inmejorable si uno debe moverse por el centro de tucuman. Es seguro. </p>
+                  <p>Sofia - AIRBNB</p>
 
                </div>
             </div>

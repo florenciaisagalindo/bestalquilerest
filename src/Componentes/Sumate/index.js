@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import ReactPlayer from 'react-player';
 
 
 const Sumate = () => {
@@ -7,7 +8,16 @@ const Sumate = () => {
 
 <div className="contenedor-sumate">
       <div className="video-sumate">
-           <video  width="300"  height="240" src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/videos%2Fprueba.mp4?alt=media&token=61c50fc5-9e67-4d1a-b458-5d01fe8a6f88"></video>
+           <ReactPlayer
+               url={'https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/videos%2Fprueba.mp4?alt=media&token=61c50fc5-9e67-4d1a-b458-5d01fe8a6f88'}
+               width='100%'
+               height='100%'
+               controls
+               playing
+               muted
+               loop
+
+           />
      </div>
      <div className="cont-sumate">
           <div className="span-sumate"></div>

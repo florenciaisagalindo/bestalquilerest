@@ -1,5 +1,6 @@
 .contenedor-AL{
     padding-top: 60px;
+    padding-bottom: 50px;
 }
 .container-aparland{
     display: flex;
@@ -38,15 +39,16 @@
     
 }
 .ver-deptos{
-    background: #333332 ;
+    background:  #f8c217 ;
     border: none ;
     border-radius: 5px;
-    color: #fff;
+    color: #333332;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 600;
     padding: 10px 35px ;
     margin: 30px auto;
 }
 .ver-deptos:hover{
-    color: #f8c217;
+    color: #fff;
 }

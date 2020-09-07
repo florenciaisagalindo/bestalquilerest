@@ -20,6 +20,7 @@
     "react-fontawesome": "^1.7.1",
     "react-google-maps": "^9.4.5",
     "react-icons": "^3.10.0",
+    "react-player": "^2.6.1",
     "react-scripts": "3.4.1",
     "react-slideshow-image": "^1.4.2",
     "react-swipeable-views": "^0.13.9"
