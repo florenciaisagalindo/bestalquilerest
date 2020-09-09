@@ -6,9 +6,15 @@
 
 .contenedor{
     
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 13em;
 
+}
+#logo-footer{
+    border-radius: 100%;
+    width: 90px;
+    margin-bottom: 20px;
+    margin-left: 75px;
+    margin-top: 20px;
 }
 .title{
     color: whitesmoke;
@@ -16,34 +22,50 @@
 h3{
     text-align: left;
 }
-p{
-    font-size: 12px;
+.info-footer{
+    font-size: 13px;
 }
 .link-footer{
-font-size: 16px; 
-color: aquamarine;   
+    font-size: 17px;
+    text-transform: uppercase;
 }
 
 .links{
     text-align: start!important;
     line-height:2 !important;
     letter-spacing: 0.7px !important;
-    padding-left: 0px !important;
+    padding-left: 0px;
 }
 
 #rrss{
-    padding-left: 0px !important;
-    margin-right: 10px;
-    box-shadow: black 5px 5px 5px !important;
+    padding-left: 0px ;
+    margin-right: 30px;
+    box-shadow: black 10px 15px 15px;
+    line-height:4 !important;
 
     
 }
 
+.desarrollo{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 3px;
+    letter-spacing: 2.5px !important;
+
+}
+
+.img-pay{
+    margin-right: 50px;
+}
+#payments{
+    background-color: #fff;
+}
 /*MEDIA QUERYS*/
 @media (min-width:300px) and (max-width:767px){
         #rrss_cont   {
         justify-content: center !important;  
         }
         #links{
-            text-align-last: center;        }
+            text-align-last: center;    
+        }
 }

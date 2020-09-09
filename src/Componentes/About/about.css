@@ -1,5 +1,5 @@
 .about-cont{
-    height: 280px;
+    height: 320px;
     text-align: center;
     margin-top: 50px;
 }
@@ -8,6 +8,8 @@
         border-top: solid 5px #f8c217 ;
         width: 250px;
         margin: 20px auto;
+        transform: rotate(-2deg);
+
 
 }
 .texto-about{
@@ -17,9 +19,10 @@
     font-size: 18px;
     line-height: 30px;
 
+
 }
 .titulo-about{
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
 
 }

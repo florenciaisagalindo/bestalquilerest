@@ -1,5 +1,8 @@
+.titulo-esp{
+    margin-top: 80px;
+}
 .d-block{
-    height: 830px;
+    height: 650px;
     object-fit: cover;
     padding-top: 30px;
     cursor: auto;

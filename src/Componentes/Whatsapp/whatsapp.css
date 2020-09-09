@@ -1,15 +1,15 @@
 .float{
 	position:fixed;
-	width:60px;
-	height:60px;
+	width:70px;
+	height:70px;
 	bottom:40px;
-	right:40px;
+	right:50px;
 	background-color:#25d366;
 	color:#FFF !important;
 	border-radius:100%;
 	text-align:center;
-  	font-size:30px;
-	box-shadow: 2px 2px 3px #999;
+  	font-size:40px;
+	box-shadow: 2px 2px 3px black;
     z-index:100;
     transition: 2s;
 }
@@ -21,4 +21,12 @@
 
 .my-float{
 	margin-top:16px;
+}
+
+/*MEDIA QUERYS*/
+@media (min-width:300px) and (max-width:767px){
+	.float{
+		bottom: 100px;
+		right: 5px;
+	}
 }

@@ -11,6 +11,7 @@ const mapURL = `https://maps.googleapis.com/maps/api/js?v=9.4.5.exp&key=${Creden
 const DeptoInfo = () => {
     return (
         <>
+        <h2 className="titulo-esp">Nombre del depto</h2>
         <div><Carousel className="w-100">
   <Carousel.Item>
     <img

@@ -1,3 +1,27 @@
-.contenedorP{
+.sec-dptos{
+    margin-top: 130px;
+
+}
+.titulo-sec-dptos{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+.span-sec-dptos{
+    border-top: solid 5px #f8c217 ;
+    width: 200px;
+    margin: auto auto;
+    transform: rotate(-2deg);
+
+}
+.contenedor-dptos{
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 70px;
+
+
 }
