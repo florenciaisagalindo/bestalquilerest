@@ -26,3 +26,19 @@
     text-transform: uppercase;
 
 }
+@media (max-width: 733px) { 
+
+    .about-cont{
+        margin-bottom: 50px;
+    }
+    .titulo-about{
+        font-size: 23px;
+    }
+    .texto-about{
+        font-size: 14px;
+        width: 320px;
+        margin-bottom: 30px;
+
+
+    }
+}

@@ -46,3 +46,88 @@
     font-size: 17px;
     width: 180px;
 }
+
+.scroll-x{
+    display: none;
+}
+
+
+@media (max-width: 1200px) {
+
+.pasos-cont{
+    height: 600px;
+
+}
+.titulo_princ1{
+    font-size: 30px;
+}
+.titulo_princ2{
+    font-size: 30px;
+}
+.pasos-sec{
+    justify-content: center;
+    overflow-x: scroll;
+    }
+.img-pasos{
+    width: 70px;
+    height: 70px;
+
+}
+.paso1 .img-pasos{
+    margin-left: 0px !important;
+}
+.paso1{
+    padding-left: 500px;
+}
+
+.titulo-pasos{
+    font-size: 16px;
+    margin-top: 2px;
+
+}
+.texto-pasos{
+    font-size: 13px;
+}
+.scroll-x{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 25px;
+
+
+}
+}
+@media (min-width: 300px) and (max-width: 400px){
+    .paso1{
+        padding-left: 600px;
+    }
+}
+@media (min-width: 401px) and (max-width: 630px){
+    .paso1{
+        padding-left: 500px;
+    }
+}
+@media (min-width: 631px) and (max-width: 800px){
+    .paso1{
+        padding-left: 280px;
+    }
+}
+@media (min-width: 800px) and (max-width: 900px){
+    .paso1{
+        padding-left: 200px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px){
+    .paso1{
+        padding-left: 50px;
+    }
+    .scroll-x{
+
+        display: none;
+    }
+    .pasos-cont{
+        height: 550px;
+    
+    }
+}

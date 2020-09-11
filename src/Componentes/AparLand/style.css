@@ -28,14 +28,18 @@
 
 .titulo-aparland2{
     padding-bottom: 20px;
+    font-size: 32px;
+
+
 }
 .secc-1, .secc-2{
     margin-bottom: 20px;
 }
 .secc-1 img, .secc-2 img{
-    width: 350px;
-    margin-right: 20px;
+    width: 450px;
     border-radius: 2px;
+    padding: 0px 10px;
+    margin: auto auto;
     
 }
 .ver-deptos{
@@ -51,4 +55,37 @@
 }
 .ver-deptos:hover{
     color: #fff;
+}
+@media (max-width: 900px) { 
+
+    .contenedor-AL{
+        padding-bottom: 25px;
+    }
+    .titulo-aparland1{
+        font-size: 23px;
+    }
+    .titulo-aparland2{
+        font-size: 20px;
+    }
+    .container-aparland{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+       
+    }
+    .secc-1 img, .secc-2 img{
+        padding-bottom: 20px;
+        width: 350px;
+    }
+    .secc-1, .secc-2 {
+        display: flex;
+        flex-direction: column;
+        padding: auto auto;
+        margin: auto auto;        
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) { 
+    .secc-1 img, .secc-2 img{
+        width: 450px;
+    }
 }

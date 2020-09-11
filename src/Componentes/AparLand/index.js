@@ -19,7 +19,7 @@ const AparLand = () => {
                 <img src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/apart-land%2F4chaca.jpg?alt=media&token=3044622a-d449-4f63-81c8-bc9a4f96ca7a" className=""></img>
 
             </div>
-            <button className="ver-deptos">ver todos</button>
+           <button className="ver-deptos">ver todos</button>
 
 
 
