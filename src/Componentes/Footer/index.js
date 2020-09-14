@@ -60,7 +60,7 @@ const Pie = () => {
         <MDBContainer fluid className="mx-0 my-2">
           &copy; {new Date().getFullYear()} Copyright Best Alquiler Temporario
         </MDBContainer>
-        <p className="desarrollo"> Hecho con ❤️ by <a>MI 'JA</a></p>
+        <p className="desarrollo"> Hecho con ❤️ by <a>Florí</a></p>
       </div>
     </MDBFooter>
         </div>

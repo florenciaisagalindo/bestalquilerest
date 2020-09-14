@@ -17,9 +17,14 @@
 .descDeptos{
     width: 50vw;
     height: 340px;
+
 }
 .texto-desc{
     width: 500px;
+    margin-left: 5%;
+    line-height: 200%;
+
+
 }
 .amenities{
     width: 50vw;

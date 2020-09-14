@@ -1,0 +1,31 @@
+.img-car{
+  height: 100%;
+}
+.z-depth-1{
+ margin: 15% auto;
+ box-shadow: none !important;
+
+}
+.texto-test{
+color: #fff;
+width: 50%;
+text-align: center;
+margin: 40px auto;
+}
+dl, ol, ul{
+  margin-bottom: -1rem !important;
+}
+
+@media (min-width:500px){
+  dl, ol, ul{
+    margin-bottom: -2rem !important;
+  }
+  .z-depth-1{
+    margin: 10% auto;
+  }
+}
+@media (min-width:300px){
+  .z-depth-1{
+    margin: 5% auto;
+  }
+}

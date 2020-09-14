@@ -75,7 +75,7 @@
     }
     .secc-1 img, .secc-2 img{
         padding-bottom: 20px;
-        width: 100%;
+        width: 50%;
     }
     .secc-1, .secc-2 {
         display: flex;
@@ -84,8 +84,14 @@
         margin: auto auto;        
     }
 }
-@media screen and (min-width: 600px) and (max-width: 900px) { 
+@media screen and (min-width: 300px) and (max-width: 599px) { 
     .secc-1 img, .secc-2 img{
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) { 
+    .secc-1 img, .secc-2 img{
+        width: 50%;
     }
 }
