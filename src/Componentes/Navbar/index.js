@@ -22,13 +22,14 @@ const NavB = () => {
       <NavLink className="link-nav" to="/departamentos" eventKey={2}style={{paddingTop: '16px'}}>
         Departamentos
       </NavLink>
+      <NavLink className="link-nav" to="/faqs" eventKey={2}style={{paddingTop: '16px'}}>
+        Faqs
+      </NavLink>
+      <NavLink className="link-nav" to="/blog" eventKey={2}style={{paddingTop: '16px'}}>
+       Blog
+      </NavLink>
       
-      <NavDropdown className="link-nav" title="Alquiler" id="collasible-nav-dropdown"> 
-        <NavDropdown.Item><Link className="link-nav" to="/info_alquileres">Particulares</Link></NavDropdown.Item>
-        <NavDropdown.Item><Link to="/info_sumardpto">Empresas</Link></NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item><Link to="/faqs">Preguntas frecuentes</Link></NavDropdown.Item>
-      </NavDropdown>
+      
       <Button id="btn_r" variant="contained" color="primary" href="https://api.whatsapp.com/send?phone=54381040583" target="_blank" style={{margin: 'auto 570px'}}>Reservar</Button>
     </Nav>
   </Navbar.Collapse>

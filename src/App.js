@@ -19,6 +19,7 @@ import BestSale from './Componentes/BestSale';
 import Faqs from './Pages/Faqs';
 import AparLand from './Componentes/AparLand';
 import ValoracionesLand from './Componentes/ValoracionesLand';
+import Blog from './Componentes/Blog/index'
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
       <Route exact path="/departamentos/:id"component={DeptoInfo}/>
       <Route exact path="/faqs" exact>
         <Faqs/>
+        </Route>
+
+        <Route exact path="/blog" exact>
+        <Blog/>
         </Route>
       </Switch>
       <Whatsapp/>

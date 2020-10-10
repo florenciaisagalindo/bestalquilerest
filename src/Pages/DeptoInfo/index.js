@@ -11,11 +11,12 @@ const mapURL = `https://maps.googleapis.com/maps/api/js?v=9.4.5.exp&key=${Creden
 const DeptoInfo = () => {
     return (
         <>
-        <h2 className="titulo-esp">Nombre del depto</h2>
+        <div className="nombre-depto"><h3 className="nombre-depto-txt">Lavalle Suites</h3></div>
+
         <div><Carousel className="w-100">
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100" 
       src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_002.jpg?alt=media&token=4b27c25d-5f50-4236-8f7e-5c3ca76893b3"
       alt="First slide"
     />
@@ -25,7 +26,7 @@ const DeptoInfo = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100" 
       src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_005.jpg?alt=media&token=d0f30779-56a9-4549-bd9a-925bf51e1e3a"
       alt="Third slide"
     />
@@ -36,7 +37,7 @@ const DeptoInfo = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100" 
       src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_012.jpg?alt=media&token=e768ca69-bbc6-4a74-99c9-b54de1971b91"
       alt="Third slide"
     />
@@ -47,7 +48,7 @@ const DeptoInfo = () => {
 
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100" 
       src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_012.jpg?alt=media&token=e768ca69-bbc6-4a74-99c9-b54de1971b91"
       alt="cuarto slide"
     />
@@ -58,7 +59,6 @@ const DeptoInfo = () => {
   
  </Carousel>
 </div>
-        
         <div className="seccion1">
             <div className="descDeptos">
                 <h3>Descripción</h3>

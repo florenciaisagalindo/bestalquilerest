@@ -36,10 +36,12 @@ const Departamentos = () => {
           <div className="span-sec-dptos"></div>
           <h2 className="titulo-sec-dptos">ELEGÍ TU BEST <br/>FAVORITO :)</h2>
           <div className="span-sec-dptos"></div>
+          <form>
+          <button>hola</button>
+        </form>
 
 
     <div className="contenedor-dptos" >
-
         {aparments.map((bestap)=>
         <a target="_blank" rel="noopener noreferrer" href ={`/departamentos/${bestap.slug}`}>
       <Card style={{ width: '18rem' }}>

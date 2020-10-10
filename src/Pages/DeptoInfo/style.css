@@ -2,11 +2,24 @@
     margin-top: 80px;
 }
 .d-block{
-    height: 650px;
+    height: 750px;
     object-fit: cover;
-    padding-top: 30px;
+    padding-top: 10px;
     cursor: auto;
 }
+.nombre-depto{
+    width: 100%;
+    height: 75px;
+    margin-top: 90px;
+    
+}
+.nombre-depto-txt{
+    padding-top: 1.5%;
+    font-size: 36px;
+
+    
+}
+
 /*Seccion 1: descripcion y servicios*/
 .seccion1{
     display: flex;
