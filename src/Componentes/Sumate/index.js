@@ -24,7 +24,7 @@ const Sumate = () => {
                <h2 className="titulo-suma">Sumá tu propiedad</h2>
           <div className="span-sumate"></div>
                <h3 className="texto-suma"> ¿Tenés un depto o una casa de campo pero no tenés tiempo para gestionarlos? <br/> Sumalo a Best y nosotros nos encargamos de todo.  </h3>
-               <button className="saber-mas">QUIERO SABER MÁS</button>
+               <button className="saber-mas" >QUIERO SABER MÁS</button>
 
 
      </div>

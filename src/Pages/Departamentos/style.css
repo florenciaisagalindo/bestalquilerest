@@ -2,6 +2,13 @@
     margin-top: 130px;
 
 }
+.section-df{
+    display: flex;
+}
+.filters{
+    margin-left: 35px;
+    margin-top: 60px;
+}
 .titulo-sec-dptos{
     text-align: center;
     padding-bottom: 15px;
@@ -16,8 +23,6 @@
 
 }
 .contenedor-dptos{
-    padding-left: 25px;
-    padding-right: 25px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

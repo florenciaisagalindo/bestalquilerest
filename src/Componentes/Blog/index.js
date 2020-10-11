@@ -41,10 +41,10 @@ const Blog = () => {
               aut rerum.
             </p>
             <p>
-              by <a href="#!" className="font-weight-bold">Jessica Clark</a>, 19/04/2018
+              by <a href="#!" className="font-weight-bold">Florencia Isa Galindo</a>, 19/04/2018
             </p>
             <MDBBtn color="primary" size="md">
-              Read More
+              Leer más
             </MDBBtn>
           </MDBCol>
         </MDBRow>

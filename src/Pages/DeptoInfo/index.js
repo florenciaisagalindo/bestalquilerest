@@ -10,7 +10,7 @@ const mapURL = `https://maps.googleapis.com/maps/api/js?v=9.4.5.exp&key=${Creden
 
 const DeptoInfo = () => {
     return (
-        <>
+        <div className='contenedor-depto'>
         <div className="nombre-depto"><h3 className="nombre-depto-txt">Lavalle Suites</h3></div>
 
         <div><Carousel className="w-100">
@@ -51,6 +51,7 @@ const DeptoInfo = () => {
       className="d-block w-100" 
       src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_012.jpg?alt=media&token=e768ca69-bbc6-4a74-99c9-b54de1971b91"
       alt="cuarto slide"
+
     />
 
     <Carousel.Caption>
@@ -103,7 +104,7 @@ El alojamiento es perfecto para una o dos personas. Tiene lugar para guardar có
         <div className="seccion3">
             <div className="similDeptos"><BestApar/></div>
         </div>
-        </>);
+        </div>);
 }
  
 export default DeptoInfo;
