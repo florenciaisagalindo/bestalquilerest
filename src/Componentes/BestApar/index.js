@@ -32,7 +32,6 @@ const BestApar = () => {
 
   return ( 
     <>
-    <h1 className="titulo"> Más lugares </h1>
     <div className="contenedorP" >
         {aparments.map((bestap)=>
       

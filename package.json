@@ -23,7 +23,8 @@
     "react-player": "^2.6.1",
     "react-scripts": "3.4.1",
     "react-slideshow-image": "^1.4.2",
-    "react-swipeable-views": "^0.13.9"
+    "react-swipeable-views": "^0.13.9",
+    "simple-react-lightbox": "^3.3.4-1"
   },
   "scripts": {
     "start": "react-scripts start",

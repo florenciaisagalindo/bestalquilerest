@@ -20,9 +20,13 @@ import Faqs from './Pages/Faqs';
 import AparLand from './Componentes/AparLand';
 import ValoracionesLand from './Componentes/ValoracionesLand';
 import Blog from './Componentes/Blog/index'
+import SimpleReactLightbox from 'simple-react-lightbox'
+
 
 function App() {
   return (
+    <SimpleReactLightbox>
+
     <Router>
       <NavB/>
       <Switch>
@@ -49,6 +53,8 @@ function App() {
       <Whatsapp/>
       <Pie/>
     </Router>
+    </SimpleReactLightbox>
+
   );
 }
 
