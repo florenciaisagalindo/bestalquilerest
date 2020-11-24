@@ -1,73 +1,68 @@
 nav.navbar {
-    background-color: #333332 !important;
-    width: inherit ;
-    height: 80px;
+  background-color: #333332 !important;
+  width: 100%;
+  height: 80px;
 }
 
-div.dropdown-menu{
-    background-color: #333332!important;
+div.dropdown-menu {
+  background-color: #333332 !important;
 }
-div.dropdown-menu :hover{
-    text-decoration: none;
-    background-color: transparent;
-}
-
-
-.navbar .dropdown-menu a{
-    color: #fff !important;
+div.dropdown-menu :hover {
+  text-decoration: none;
+  background-color: transparent;
 }
 
+.navbar .dropdown-menu a {
+  color: #fff !important;
+}
 
 .navbar-light button.navbar-toggler.collapsed span.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(175,177,182)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(175,177,182)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 .navbar-light button.navbar-toggler span.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(175,177,182)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") ;
-  }
-
-  .link-nav {
-    color: #fff ;
-    padding: 8px;
-    padding-right: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 18px;
-
-};
-
-
-div.navbar-nav .a :hover{
-    text-decoration: none;
-    
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(175,177,182)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-#btn_r{
-    color: #333332 !important;
-    background-color: #fff ;
-    font-weight: 600;
+
+.link-nav {
+  color: #fff;
+  padding: 8px;
+  padding-right: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
 }
-.container{
-    display: flex;
-    justify-content: flex-end;
-};
-.logo{
-    margin-left: 70px;
+
+div.navbar-nav .a :hover {
+  text-decoration: none;
 }
-.navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link{
-    color: #fff;
+#btn_r {
+  color: #333332 !important;
+  background-color: #fff;
+  font-weight: 600;
 }
-.navbar-nav{
-    background-color: #333332;
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+.logo {
+  margin-left: 70px;
+}
+.navbar.navbar-light .breadcrumb .nav-item .nav-link,
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+.navbar-nav {
+  background-color: #333332;
 }
 
 @media (max-width: 733px) {
-    .navbar-nav{
-        height: 160px;
-    }
-    .logo{
-        margin-left: 5px !important;
-    }
-    #btn_r{
-        display: none;
-    }
-   
+  .navbar-nav {
+    height: 160px;
+  }
+  .logo {
+    margin-left: 5px !important;
+  }
+  #btn_r {
+    display: none;
+  }
 }
