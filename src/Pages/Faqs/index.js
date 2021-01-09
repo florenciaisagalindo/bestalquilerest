@@ -4,7 +4,6 @@ import {
   MDBCollapse,
   MDBCard,
   MDBCardBody,
-  MDBCollapseHeader,
   MDBIcon
 } from "mdbreact";
 import "./style.css";
@@ -26,11 +25,6 @@ class CollapsePage extends Component {
           id='cont-accordion'
           className='accordion md-accordion accordion-3 z-depth-1-half'
         >
-          <div className='d-flex justify-content-center pt-5'>
-            {/* <MDBIcon icon='anchor' className='red-text mx-3' size='2x' />
-            <MDBIcon far icon='life-ring' className='red-text mx-3' size='2x' />
-            <MDBIcon far icon='star' className='red-text mx-3' size='2x' /> */}
-          </div>
           <h2 class='text-center text-uppercase red-text py-4 px-3'>
             Preguntas Frecuentes
           </h2>
@@ -38,22 +32,18 @@ class CollapsePage extends Component {
           <hr class='mb-0' />
 
           <MDBCard>
-            <MDBCollapseHeader
+            Horario de check in-out
+            <MDBIcon
+              icon={
+                this.state.collapseID === "collapse1"
+                  ? "angle-up"
+                  : "angle-down"
+              }
+              className='red-text'
+              size='2x'
               onClick={this.toggleCollapse("collapse1")}
-              tag='h3'
-              tagClassName='red-text d-flex justify-content-between align-items-center'
-            >
-              Horario de check in-out
-              <MDBIcon
-                icon={
-                  this.state.collapseID === "collapse1"
-                    ? "angle-up"
-                    : "angle-down"
-                }
-                className='red-text'
-                size='2x'
-              />
-            </MDBCollapseHeader>
+            />
+            {/* </MDBCollapseHeader> */}
             <MDBCollapse id='collapse1' isOpen={this.state.collapseID}>
               <MDBCardBody class='pt-0'>
                 <p>
@@ -72,7 +62,7 @@ class CollapsePage extends Component {
               </MDBCardBody>
             </MDBCollapse>
           </MDBCard>
-
+          {/* 
           <MDBCard>
             <MDBCollapseHeader
               onClick={this.toggleCollapse("collapse2")}
@@ -503,7 +493,7 @@ class CollapsePage extends Component {
                 </p>
               </MDBCardBody>
             </MDBCollapse>
-          </MDBCard>
+          </MDBCard> */}
         </MDBContainer>
       </MDBContainer>
     );
