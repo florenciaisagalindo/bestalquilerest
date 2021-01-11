@@ -59,7 +59,7 @@ const NavB = () => {
           color='primary'
           href='https://api.whatsapp.com/send?phone=54381040583'
           target='_blank'
-          style={{ position: "absolute", right: "5%", paddingTop: "20px" }}
+          style={{ position: "absolute", right: "5%", marginTop: "5px" }}
         >
           Reservar
         </Button>
