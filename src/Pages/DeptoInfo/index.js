@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.css';
 import SwipeableTextMobileStepper from '../../Componentes/SlideFotos/index';
 import Mapa from '../../Componentes/Map/index';
@@ -6,7 +6,7 @@ import Credentials from '../../Credentials';
 import Carousel from 'react-bootstrap/Carousel';
 import BestApar from '../../Componentes/BestApar';
 import Grid from '../../Componentes/Grid'
-
+import firebase from "../../firebase.js";
 
 const mapURL = `https://maps.googleapis.com/maps/api/js?v=9.4.5.exp&key=${Credentials.mapsKey}`;
 
@@ -24,13 +24,6 @@ const DeptoInfo = () => {
       className="w-100" 
       src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_012.jpg?alt=media&token=e768ca69-bbc6-4a74-99c9-b54de1971b91"
       alt="Third slide"
-    />
-     <img
-           id="prueba2"
-
-      src="https://firebasestorage.googleapis.com/v0/b/best-at-3697b.appspot.com/o/Lavalle%2FLavalle_707_7A_012.jpg?alt=media&token=e768ca69-bbc6-4a74-99c9-b54de1971b91"
-      alt="cuarto slide"
-
     />
 
 

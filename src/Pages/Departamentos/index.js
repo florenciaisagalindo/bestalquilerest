@@ -4,9 +4,6 @@ import "./style.css";
 import Card from "react-bootstrap/Card";
 import FontAwesome from "react-fontawesome";
 import firebase from "../../firebase.js";
-// import Ubicacion from "../../Componentes/CheckboxUb";
-// import Ambientes from "../../Componentes/CheckboxAmb";
-// import Amenities from "../../Componentes/CheckboxAmeni";
 
 function useAparments() {
   const [aparments, setAparments] = useState([]);
@@ -41,11 +38,6 @@ const Departamentos = () => {
       <div className='span-sec-dptos'></div>
 
       <div className='section-df'>
-        {/* <div className='filters'>
-          <Ubicacion/>
-          <Ambientes/>
-          <Amenities/>
-          </div> */}
 
         <div className='contenedor-dptos'>
           {aparments.map(bestap => (
@@ -55,7 +47,7 @@ const Departamentos = () => {
               href={`/departamentos/${bestap.slug}`}
             >
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant='top' src={bestap.foto1} />
+                <Card.Img variant='top' src={bestap.fotos[0]} />
                 <Card.Body>
                   <Card.Title key={bestap.id}>{bestap.titulo}</Card.Title>
                   <Card.Text>

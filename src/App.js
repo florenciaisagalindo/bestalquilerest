@@ -30,25 +30,27 @@ function App() {
     <Router>
       <NavB/>
       <Switch>
-        <Route path="/" exact>
-          <Car/>
-          <About/>
-          <Pasos/>
-          <AparLand/>
-          <ValoracionesLand/>
-          <Sumate/>
-        </Route>
-        <Route exact path="/departamentos">
+      <Route path="/" exact>
+        <Car/>
+        <About/>
+        <Pasos/>
+        <AparLand/>
+        <ValoracionesLand/>
+        <Sumate/>
+      </Route>
+      <Route exact path="/departamentos">
         <Departamentos/>
-        </Route>
-      <Route exact path="/departamentos/:id"component={DeptoInfo}/>
-      <Route exact path="/faqs" exact>
+      </Route>
+      <Route exact path="/departamentos/:slug">
+        <DeptoInfo/>
+      </Route>
+      <Route exact path="/faqs">
         <Faqs/>
-        </Route>
+      </Route>
 
-        <Route exact path="/blog" exact>
+      <Route exact path="/blog">
         <Blog/>
-        </Route>
+      </Route>
       </Switch>
       <Whatsapp/>
       <Pie/>
